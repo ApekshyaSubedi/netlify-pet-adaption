@@ -1,9 +1,9 @@
 const handler = async () => {
-    return {
-  statuscode: 200,
-  Headers: { "Content-Type": "text/plain"},
-  body: "brad".toUpperCase()
-    }
-}
+  return {
+      statusCode: 200,
+      headers: { "Content-Type": "text/plain" },
+      body: "BRAD".toUpperCase()
+  };
+};
 
-module.exports = {handler}
+module.exports = { handler };
